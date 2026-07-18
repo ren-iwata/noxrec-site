@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="description" content="No.X / Ren Iwata — Building systems for an AI-native economy." />
+  <meta name="robots" content="noindex, nofollow, noarchive" />
+  <meta property="og:title" content="NO.X — REN IWATA" />
+  <meta property="og:description" content="Because the unknown is no longer unknown." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/og.svg" />
+  <meta name="theme-color" content="#030507" />
+  <title>NO.X — REN IWATA</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="boot" aria-hidden="true">
+    <div class="boot__mark">NO.X</div>
+    <div class="boot__line"><i></i></div>
+  </div>
+
+  <div class="cursor" aria-hidden="true"><span></span></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><i></i></div>
+
+  <header class="header" data-header>
+    <a href="#origin" class="logo magnetic" aria-label="No.X home">
+      <svg viewBox="0 0 160 34" role="img" aria-label="NO.X">
+        <path d="M2 31V3h7l21 20V3h8v28h-7L10 11v20H2Z"/>
+        <path d="M48 17C48 8 55 2 65 2s17 6 17 15-7 15-17 15-17-6-17-15Zm9 0c0 5 3 8 8 8s8-3 8-8-3-8-8-8-8 3-8 8Z"/>
+        <circle cx="93" cy="27" r="4"/>
+        <path d="m101 3 12 14-13 14h11l8-9 8 9h11l-13-14 12-14h-10l-8 9-8-9h-10Z"/>
+        <path d="M144 3h14v5h-14V3Zm0 10h14v5h-14v-5Zm0 10h14v5h-14v-5Z" opacity=".42"/>
+      </svg>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary">
+      <a href="#systems">SYSTEMS</a>
+      <a href="#thesis">THESIS</a>
+      <a href="#signal">SIGNAL</a>
+    </nav>
+
+    <div class="header__actions">
+      <button class="lang magnetic" id="langToggle" type="button" aria-label="Switch language">EN</button>
+      <button class="menu magnetic" type="button" aria-label="Open navigation" aria-expanded="false" data-menu-button>
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <aside class="menu-panel" data-menu-panel aria-hidden="true">
+    <div class="menu-panel__inner">
+      <span class="menu-panel__label">NAVIGATION</span>
+      <nav>
+        <a href="#systems"><b>01</b><span>SYSTEMS</span></a>
+        <a href="#thesis"><b>02</b><span>THESIS</span></a>
+        <a href="#signal"><b>03</b><span>SIGNAL</span></a>
+      </nav>
+      <div class="menu-panel__meta">TOKYO / JAPAN<br />AI NATIVE BUILDER</div>
+    </div>
+  </aside>
+
+  <main>
+    <section class="hero stage" id="origin" data-section="ORIGIN">
+      <canvas id="field" aria-hidden="true"></canvas>
+      <div class="hero__flare" aria-hidden="true"></div>
+      <div class="hero__rings" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="stage__shade" aria-hidden="true"></div>
+
+      <div class="stage__content hero__content">
+        <div class="micro reveal" data-i18n="heroKicker">AN INDEPENDENT AI-NATIVE BUILDER</div>
+        <h1 class="hero__title" aria-label="No.X">
+          <span class="hero__line hero__line--top" data-split>NO.</span>
+          <span class="hero__line hero__line--bottom" data-split>X</span>
+        </h1>
+        <div class="hero__bottom reveal">
+          <p data-i18n="heroStatement">未知が、未知ではなくなる瞬間をつくる。</p>
+          <div class="hero__coordinates">
+            <span>35.6762° N</span>
+            <span>139.6503° E</span>
+          </div>
+        </div>
+      </div>
+
+      <a class="stage__cta reveal magnetic" href="#systems">
+        <span data-i18n="discover">DISCOVER</span>
+        <i aria-hidden="true">↓</i>
+      </a>
+      <div class="stage__index" aria-hidden="true"><b>00</b><span>ORIGIN</span></div>
+    </section>
+
+    <section class="project-stage stage" id="systems" data-section="SYSTEMS">
+      <div class="project-stage__visual visual-hojin" aria-hidden="true">
+        <div class="earth"><i></i><i></i><i></i><b>JP</b></div>
+        <div class="orbit orbit--1"><span></span></div>
+        <div class="orbit orbit--2"><span></span></div>
+        <div class="data-stream data-stream--a">13 DIGIT CORPORATE ID · VERIFIED · SOURCE TRACEABLE ·</div>
+        <div class="data-stream data-stream--b">MCP · REST · AGENT READY · JAPAN ·</div>
+        <div class="scanline"></div>
+      </div>
+      <div class="stage__shade stage__shade--heavy" aria-hidden="true"></div>
+
+      <div class="project-stage__content">
+        <div class="micro reveal">01 / LIVE INFRASTRUCTURE</div>
+        <h2 class="display reveal">HOJIN<br />CHECK</h2>
+        <p class="project-stage__lead reveal" data-i18n="hojinLead">AIエージェントに、日本企業を検証する能力を。</p>
+        <p class="project-stage__copy reveal" data-i18n="hojinCopy">法人番号・インボイス登録・企業情報・住所・営業日。日本の公的データを、MCPとRESTでエージェントへ接続する検証基盤。</p>
+        <div class="project-stage__actions reveal">
+          <a class="outline-button magnetic" href="https://hojincheck.com" target="_blank" rel="noopener"><span>OPEN SYSTEM</span><i>↗</i></a>
+          <a class="text-link magnetic" href="https://smithery.ai/servers/hojincheck/hojincheck" target="_blank" rel="noopener">SMITHERY ↗</a>
+          <a class="text-link magnetic" href="https://github.com/ren-iwata/hojincheck-public" target="_blank" rel="noopener">GITHUB ↗</a>
+        </div>
+      </div>
+      <div class="stage__index" aria-hidden="true"><b>01</b><span>INFRASTRUCTURE</span></div>
+    </section>
+
+    <section class="project-stage project-stage--loop stage" id="loop" data-section="PRODUCT">
+      <div class="project-stage__visual visual-loop" aria-hidden="true">
+        <div class="loop-core">
+          <span class="loop-word loop-word--1">THINK</span>
+          <span class="loop-word loop-word--2">MAKE</span>
+          <span class="loop-word loop-word--3">SHIP</span>
+          <span class="loop-word loop-word--4">LEARN</span>
+          <i class="loop-ring loop-ring--1"></i>
+          <i class="loop-ring loop-ring--2"></i>
+          <i class="loop-ring loop-ring--3"></i>
+          <b>∞</b>
+        </div>
+        <div class="loop-grid"></div>
+      </div>
+      <div class="stage__shade stage__shade--right" aria-hidden="true"></div>
+
+      <div class="project-stage__content project-stage__content--right">
+        <div class="micro reveal">02 / EXPERIMENTAL PRODUCT</div>
+        <h2 class="display reveal">LOOP</h2>
+        <p class="project-stage__lead reveal" data-i18n="loopLead">思考を、成果が生まれる閉回路へ。</p>
+        <p class="project-stage__copy reveal" data-i18n="loopCopy">AIとの会話から、制作・公開・反応まで。変換作業をAIへ渡し、人間の判断を連続的なアウトプットへ変える。</p>
+        <div class="project-stage__actions reveal">
+          <a class="outline-button magnetic" href="https://loop-delta-nine.vercel.app" target="_blank" rel="noopener"><span>LAUNCH APP</span><i>↗</i></a>
+          <a class="text-link magnetic" href="https://github.com/ren-iwata/loop" target="_blank" rel="noopener">GITHUB ↗</a>
+        </div>
+      </div>
+      <div class="stage__index stage__index--right" aria-hidden="true"><b>02</b><span>PRODUCT</span></div>
+    </section>
+
+    <section class="thesis stage" id="thesis" data-section="THESIS">
+      <div class="thesis__grid" aria-hidden="true"></div>
+      <div class="thesis__beam" aria-hidden="true"></div>
+      <div class="stage__shade stage__shade--heavy" aria-hidden="true"></div>
+
+      <div class="thesis__content">
+        <div class="micro reveal">03 / THESIS</div>
+        <p class="thesis__statement reveal" data-i18n="thesisStatement">AIを既存業務に<br />追加するのではない。<br /><em>AIが動く前提で、</em><br />会社そのものを<br />設計し直す。</p>
+        <div class="thesis__principles reveal">
+          <article><span>01</span><h3>AI AS ACTOR</h3><p data-i18n="principle1">AIを補助者ではなく、実行主体として扱う。</p></article>
+          <article><span>02</span><h3>SYSTEMS, NOT TASKS</h3><p data-i18n="principle2">作業ではなく、成果を再生産する構造をつくる。</p></article>
+          <article><span>03</span><h3>FROM UNKNOWN TO REAL</h3><p data-i18n="principle3">思想を実装し、市場で検証し、現実へ変える。</p></article>
+        </div>
+      </div>
+      <div class="stage__index" aria-hidden="true"><b>03</b><span>THESIS</span></div>
+    </section>
+
+    <section class="signal stage" id="signal" data-section="SIGNAL">
+      <div class="signal__aurora" aria-hidden="true"></div>
+      <div class="signal__lines" aria-hidden="true"></div>
+      <div class="stage__shade stage__shade--bottom" aria-hidden="true"></div>
+
+      <div class="signal__content">
+        <div class="micro reveal">04 / OPEN CHANNELS</div>
+        <h2 class="signal__title reveal" data-i18n="signalTitle">FOLLOW<br />THE SIGNAL.</h2>
+        <div class="signal__links">
+          <a class="signal-link reveal magnetic" href="https://x.com/NoX_Rec" target="_blank" rel="noopener"><span>01</span><strong>X / THOUGHTS</strong><b>@NoX_Rec</b><i>↗</i></a>
+          <a class="signal-link reveal magnetic" href="https://github.com/ren-iwata" target="_blank" rel="noopener"><span>02</span><strong>GITHUB / BUILDS</strong><b>ren-iwata</b><i>↗</i></a>
+          <a class="signal-link reveal magnetic" href="https://www.linkedin.com/in/ren-iwata" target="_blank" rel="noopener"><span>03</span><strong>LINKEDIN / PROFILE</strong><b>ren-iwata</b><i>↗</i></a>
+          <a class="signal-link reveal magnetic" href="https://smithery.ai/servers/hojincheck/hojincheck" target="_blank" rel="noopener"><span>04</span><strong>SMITHERY / MCP</strong><b>HojinCheck</b><i>↗</i></a>
+        </div>
+      </div>
+
+      <footer>
+        <div>NO.X / REN IWATA</div>
+        <p data-i18n="footerLine">BECAUSE THE UNKNOWN IS NO LONGER UNKNOWN.</p>
+        <span>© <b id="year"></b></span>
+      </footer>
+      <div class="stage__index stage__index--right" aria-hidden="true"><b>04</b><span>SIGNAL</span></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
