@@ -12,6 +12,8 @@ GitHub: ren-iwata/noxrec-site (main)
 
 The `main` branch is the production branch. Future changes should be made through a feature branch or pull request, reviewed in a Vercel Preview Deployment, and then merged into `main`.
 
+The previous Vercel project `noxrec-site` is intentionally disconnected from GitHub and retained only as a dormant rollback reference.
+
 ## Run locally
 
 ```bash
